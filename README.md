@@ -1,3 +1,4 @@
+[ร้านขายไอเทม.html](https://github.com/user-attachments/files/33364562/default.html)
 <!DOCTYPE html>
 <html lang="th">
 <head>
@@ -58,6 +59,7 @@ button{font:inherit;border:0;border-radius:8px;cursor:pointer}
 <p class="ft">สนใจเม้นใต้โพสต์ หรือทักแชทเฟซบุ๊กได้เลยครับ</p>
 </div>
 <script>
+// name, price, stock (0 = sold out, null = in stock, count unknown), category
 const M='Mythic',L='Legendary',E='Elite',V='Veil-O-Ween',X='Misc';
 const items=[
 ["The Convergence",150,1,M],["Omniwarp",100,4,M],["Halo",150,null,M],
@@ -104,4 +106,3 @@ render();
 </script>
 </body>
 </html>
-```[cite: 1]
